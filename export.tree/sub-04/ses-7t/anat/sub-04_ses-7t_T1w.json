@@ -1,0 +1,81 @@
+{
+  "format": "MRI/NIFTI",
+  "manufacturer": null,
+  "acqDateTime": null,
+  "subId": null,
+  "sesId": "",
+  "recNo": 0,
+  "recId": "unknown",
+  "custom": {},
+  "header": {
+    "diminfo": 54,
+    "dim": [
+      3,
+      240,
+      320,
+      320,
+      1,
+      1,
+      1,
+      1
+    ],
+    "intent_p1": 0.0,
+    "intent_p2": 0.0,
+    "intent_p3": 0.0,
+    "intent_code": 0,
+    "datatype": 4,
+    "bitpix": 16,
+    "slice_start": 0,
+    "pixdim": [
+      1.0,
+      0.699999988079071,
+      0.703125,
+      0.703125,
+      4.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vox_offset": 352.0,
+    "scl_slope": 1.0,
+    "scl_inter": 0.0,
+    "slice_end": 0,
+    "slice_code": 0,
+    "xyz_units": 10,
+    "cal_max": 0.0,
+    "cal_min": 0.0,
+    "slice_duration": 0.0,
+    "toffset": 0.0,
+    "glmax": 0,
+    "glmin": 0,
+    "descrip": "TE=1.9;Time=122619.280;phase=1",
+    "aux_file": "",
+    "qform_code": 1,
+    "sform_code": 1,
+    "quatern_b": 8.726119995117188e-05,
+    "quatern_c": 0.0,
+    "quatern_d": 0.0,
+    "qoffset_x": -83.65108489990234,
+    "qoffset_y": -82.80259704589844,
+    "qoffset_z": -120.60894775390625,
+    "srow_x": [
+      0.7000045776367188,
+      0.0,
+      0.0,
+      -83.65108489990234
+    ],
+    "srow_y": [
+      0.0,
+      0.703125,
+      -0.00012271106243133545,
+      -82.80259704589844
+    ],
+    "srow_z": [
+      0.0,
+      0.00012271106243133545,
+      0.703125,
+      -120.60894775390625
+    ],
+    "intent_name": ""
+  }
+}
