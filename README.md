@@ -1,6 +1,6 @@
 DESCRIPTION
 
-Here we share the unprocessed multi-echo GRE data from the paper: Mesoscale whole-brain T2*-weighted and associated quantitative MRI in humans at 10.5 T. Jiaen Liu, Peter van Gelderen, Jacco A. de Zwart, Jeff H. Duyn, Yujia Huang, Shuxian Qu, Andrea Grant, Edward Auerbach, Matt Waks, Russell Lagore, Lance Delabarre, Alireza Sadeghi-Tarakameh, Yigitcan Eryaman, Gregor Adriany, Kamil Ugurbil and Xiaoping Wu.
+Here we share the unprocessed multi-echo GRE data obtained at both 10.5 and 7 T alongside T1w MP2RAGE collected at 7 T, all reported in the following paper: Mesoscale whole-brain T2*-weighted and associated quantitative MRI in humans at 10.5 T. Jiaen Liu, Peter van Gelderen, Jacco A. de Zwart, Jeff H. Duyn, Yujia Huang, Shuxian Qu, Andrea Grant, Edward Auerbach, Matt Waks, Russell Lagore, Lance Delabarre, Alireza Sadeghi-Tarakameh, Yigitcan Eryaman, Gregor Adriany, Kamil Ugurbil and Xiaoping Wu. MRM 2026.
 
 Below we provide a brief description of the data. A detailed description of the data including acquisition, reconstruction, processing and analysis can be found in the paper cited above.
 
@@ -18,13 +18,12 @@ At 7 T, T2* w data acquisition was performed using the same 3D ME-GRE sequence a
 
 For each volunteer, we acquired fully sampled calibration data in a separate reference scan using a multi-echo 2D GRE sequence. This data was used for estimating multi-coil sensitivity maps needed for parallel image reconstruction. Specifically, multi-slice 2D GRE images with whole brain coverage were obtained with the following parameters: 4 mm isotropic in-plane resolution, 256×192 mm2 FOV, 4 mm slice thickness and 50 axial slices. At each field strength, TE was set to the minimum water-fat in-phase TE, 2.56 ms for 10.5 T and 2.88 ms for 7 T, for improved sensitivity map estimation. TR was set to 315 ms for 10.5 T and 500 ms for 7 T, and nominal flip angle to 30° for 10.5 T and 38° for 7 T, leading to a total scan time of less than 25 s.
 
-For image processing and analysis, whole-brain anatomical reference images were collected using T1-weighted (T1w) 3D magnetization prepared two rapid acquisition gradient echoes (MP2RAGE)36 at 7 T. MP2RAGE parameters included 0.7 mm isotropic resolution, 2.36 ms TE, 4 s TR, and TI1/TI2= 740/2430 ms.
+For image processing and analysis, whole-brain anatomical reference images were collected using T1-weighted (T1w) 3D magnetization prepared two rapid acquisition gradient echoes (MP2RAGE) at 7 T. MP2RAGE parameters included 0.7 mm isotropic resolution, 2.36 ms TE, 4 s TR, and TI1/TI2= 740/2430 ms.
 
 All 3D T2*w ME-GRE images were reconstructed using in-house MATLAB software made publicly available at https://github.com/jiaen-liu/moco. The reconstruction was based on a unified signal model incorporating intra-scan rigid-body motion and B0 changes for motion and B0 correction, and coil sensitivity maps for SENSE-based parallel imaging reconstruction.
 
 PREPROCESSING
 
-.
 
 USAGE NOTES
 
