@@ -1,5 +1,5 @@
 {
-    "Name": "Mesoscale whole-brain T2*-weighted MRI in humans at 10.5 T",
+    "Name": "Mesoscale whole-brain T2*-weighted multi-echo MRI in healthy adults at 10.5 T",
     "BIDSVersion": "v1.9.0",
     "License": "CC0",
     "Authors": [
